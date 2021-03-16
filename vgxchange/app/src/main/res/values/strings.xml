@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">VGXchange</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="param">Paramètre</string>
+    <string name="transaction">Transaction</string>
+    <string name="annoncement">Annonces</string>
+    <string name="hello">Bonjour</string>
+    <string name="profil">Profil</string>
+    <string name="subscribe_to_VGXchange">Inscrivez-vous à VGXchange</string>
+    <string name="first_name">Prénom</string>
+    <string name="name">Nom</string>
+    <string name="mail">Adresse mail</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="password">Mots de passe</string>
+    <string name="create_your_account">Créez votre compte</string>
+    <string name="pseudo">Pseudo</string>
+
+    <string-array name="users">
+        <item>Jordan</item>
+        <item>Martin</item>
+        <item>Corentin</item>
+        <item>Joé</item>
+        <item>Hulk</item>
+    </string-array>string-array>
+
+    <string-array name="description">
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+    </string-array>
+</resources>
