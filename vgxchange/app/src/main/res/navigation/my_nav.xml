@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/browsingProductsFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.vgxchange.fragments.menu_navigation.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" />
+
+
+    <fragment
+        android:id="@+id/browsingProductsFragment"
+        android:name="com.example.vgxchange.database.TestSql"
+        android:label="Search"
+        tools:layout="@layout/browsing_products" />
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.example.vgxchange.fragments.menu_navigation.thirdFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_third" />
+    <fragment
+    android:id="@+id/profilFragment"
+    android:name="com.example.vgxchange.fragments.user_management.ProfilFragment"
+    android:label="Connexion"
+    tools:layout="@layout/profile_page" />
+    <fragment
+        android:id="@+id/subscriptionFragment"
+        android:name="com.example.vgxchange.fragments.user_management.SubscriptionFragment"
+        android:label="Connection"
+        tools:layout="@layout/fragment_subscription" />
+    <fragment
+        android:id="@+id/connectionFragment"
+        android:name="com.example.vgxchange.fragments.user_management.ConnectionFragment"
+        android:label="Connection"
+        tools:layout="@layout/fragment_connection" />
+
+
+</navigation>

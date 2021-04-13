@@ -1,0 +1,92 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".fragments.adding_product_announce.AddProductFragment"
+    tools:ignore="ExtraText">
+
+
+
+
+    <TextView
+        android:id="@+id/textView_title_add_product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ajouter_une_annonce"
+        android:textColor="@color/purple_500"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+
+    <EditText
+        android:id="@+id/editText_add_product_game"
+        android:layout_width="277dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="Titre du jeu"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNumber_price_add_product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_title_add_product" />
+
+    <EditText
+        android:id="@+id/editTextNumber_price_add_product"
+        android:layout_width="277dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="Prix"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
+
+    <EditText
+        android:id="@+id/editText_add_product_photoLink"
+        android:layout_width="277dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="296dp"
+        android:ems="10"
+        android:hint="Lien Photo"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber_price_add_product"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editText_add_product_Condition"
+        android:layout_width="277dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="168dp"
+        android:ems="10"
+        android:hint="Etat"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_add_product_photoLink"
+        app:layout_constraintVertical_bias="0.932" />
+
+    <Button
+    android:id="@+id/button_add_product"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Poster"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/editText_add_product_Condition"
+    app:layout_constraintVertical_bias="0.478" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

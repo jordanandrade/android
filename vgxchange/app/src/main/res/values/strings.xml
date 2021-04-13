@@ -3,10 +3,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="param">Paramètre</string>
-    <string name="transaction">Transaction</string>
+    <string name="param">Paramètres</string>
+    <string name="transaction">Transactions</string>
     <string name="annoncement">Annonces</string>
-    <string name="hello">Bonjour</string>
+    <string name="hello">Bonjourd</string>
     <string name="profil">Profil</string>
     <string name="subscribe_to_VGXchange">Inscrivez-vous à VGXchange</string>
     <string name="first_name">Prénom</string>
@@ -23,7 +23,23 @@
         <item>Corentin</item>
         <item>Joé</item>
         <item>Hulk</item>
-    </string-array>string-array>
+        <item>Jordan</item>
+        <item>Martin</item>
+        <item>Corentin</item>
+        <item>Joé</item>
+        <item>Hulk</item>
+        <item>Jordan</item>
+        <item>Martin</item>
+        <item>Corentin</item>
+        <item>Joé</item>
+        <item>Hulk</item>
+        <item>Jordan</item>
+        <item>Martin</item>
+        <item>Corentin</item>
+        <item>Joé</item>
+        <item>Hulk</item>
+    </string-array>
+    string-array>
 
     <string-array name="description">
         <item>Description</item>
@@ -31,5 +47,24 @@
         <item>Description</item>
         <item>Description</item>
         <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
+        <item>Description</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="noter_l_annonce">Noter l\'annonce</string>
+    <string name="ajouter_une_annonce">Ajouter une Annonce</string>
 </resources>
